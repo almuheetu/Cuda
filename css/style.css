@@ -348,3 +348,7 @@ label {
 .service-img {
 	text-align: center;
 }
+
+.s-content p {
+	color: #fff;
+}
