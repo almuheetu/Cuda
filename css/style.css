@@ -467,3 +467,32 @@ label {
 .row-3 {
 	margin-left: 15px;
 }
+
+
+
+
+/* cowenter */
+
+.cowenter {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center ;  
+	background-color: #643a79;         
+}
+.containers{
+	display: flex;
+	width: 160px;
+	padding: 50px 0;
+	border-radius: 8px;
+	background: #fff;
+	flex-direction: column;
+	align-items: center;
+}
+	
+
+
+
+
+
+
