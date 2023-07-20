@@ -415,31 +415,38 @@ label {
 .row-2 {
 	display: flex;
 }
+
 .bg {
 	background-color: #e7f1f8;
 }
+
 .team-content {
 	text-align: center;
 	margin-bottom: 65px;
 }
+
 .team-content h1 {
 	font-size: 41px;
 	font-weight: bold;
 	color: #3c4761;
 	margin-bottom: 28px;
 }
+
 .team-content p {
 	font-size: 19px;
 	color: #3c4761
 }
+
 .box h3 {
 	font-size: 24px;
 	font-weight: 500;
 	margin-top: 40px;
 }
+
 .box {
 	text-align: center;
 }
+
 .social-link ul li a {
 	color: #fff;
 	background-color: #bdd1df;
@@ -448,22 +455,27 @@ label {
 	padding: 10px 10px;
 	border-radius: 50%;
 }
+
 .social-link {
 	margin-left: 40px;
 	margin-top: 30px;
 }
+
 .box span {
 	color: #30bae7;
 	font-size: 15px;
 	/* margin-bottom: 38px; */
 }
+
 .box p {
 	margin-top: 25px;
 }
+
 .box p {
 	margin-top: 25px;
 	padding: 0px 29px;
 }
+
 .row-3 {
 	margin-left: 15px;
 }
@@ -477,10 +489,11 @@ label {
 	height: 100vh;
 	display: flex;
 	align-items: center;
-	justify-content: center ;  
-	background-color: #643a79;         
+	justify-content: center;
+	/* background-color: #643a79; */
 }
-.containers{
+
+.containers {
 	display: flex;
 	width: 160px;
 	padding: 50px 0;
@@ -490,28 +503,52 @@ label {
 	flex-direction: column;
 	align-items: center;
 }
+
 .circular-progress {
 	position: relative;
 	height: 150px;
 	width: 150px;
 	border-radius: 50%;
-	background: conic-gradient(#30bae7 3.6deg, #ededed 0deg);
+	background: conic-gradient(#30bae7 325.6deg, #ededed 0deg);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.circular-progress::before{
+
+.circular-progress-2 {
+	background: conic-gradient(#d74680 275.6deg, #ededed 0deg);
+}
+
+.circular-progress-3 {
+	background: conic-gradient(#15c7a8 240.6deg, #ededed 0deg);
+}
+
+.circular-progress-4 {
+	background: conic-gradient(#eb7d4b 300.6deg, #ededed 0deg);
+}
+
+.circular-progress::before {
 	content: "";
 	position: absolute;
-	height: 110px;
-	width: 110px;
+	height: 130px;
+	width: 130px;
 	border-radius: 50%;
 	background-color: #fff;
 }
-	
 
+.progress-value {
+	position: relative;
+	font-size: 40px !important;
+	font-weight: 400;
+	color: #333 !important;
+}
 
+.span-text {
+	font-size: 18px;
+	font-weight: bold;
+	color: #3c4761;
+}
 
-
-
-
+.counter-content {
+	text-align: center;
+}
