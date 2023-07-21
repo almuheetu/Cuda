@@ -617,3 +617,19 @@ label {
 .pt-img h4 {
 	margin-bottom: 50px;
 }
+.content-2 a {
+	background: #17c2a4;
+	padding: 27px 80px;
+	margin-bottom: 100px;
+}
+.content-2 a {
+	background: #17c2a4;
+	padding: 24px 50px;
+	margin-bottom: 85px;
+	border-bottom: 5px solid #14a58c;
+}
+.pt-img h4 {
+	font-size: 18px;
+	color: #60584a;
+	font-weight: 500;
+}
