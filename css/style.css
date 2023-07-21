@@ -633,3 +633,48 @@ label {
 	color: #60584a;
 	font-weight: 500;
 }
+
+
+
+/* About */
+.client-photo {
+	float: left;
+	width: 10rem;
+}
+
+.a-content {
+	display: flex;
+	margin-bottom: 130px;
+}
+.about-c {
+	text-align: center;
+	margin-bottom: 45px;
+}
+.about-c h3 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 16px;
+}
+.about-section {
+	background-color: #d74680;
+}
+.about-c p {
+	font-size: 18px;
+	color: #fff;
+}
+.client-review {
+	margin-left: 50px;
+}
+.client-review p {
+	font-size: 21px;
+	color: #fff;
+	font-style: italic;
+}
+.client-review h3 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
