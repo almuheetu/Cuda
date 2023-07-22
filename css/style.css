@@ -26,7 +26,7 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'titillium web';
 	font-weight: normal;
 	font-style: normal;
 }
@@ -99,7 +99,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'titillium web';
 	font-weight: normal;
 	color: #313131;
 	margin-top: 0px;
@@ -334,7 +334,7 @@ label {
 
 
 .header-logo {
-	padding: 55px 0px 145px 0;
+	padding: 50px 0px 95px 0;
 }
 
 .main-nav li {
@@ -354,14 +354,14 @@ label {
 
 .content h1 {
 	color: #fff;
-	font-weight: 500;
-	margin-bottom: 55px;
+	font-weight: bold;
+	margin-bottom: 50px;
 }
 
 .content a {
 	padding: 27px 80px;
 	background-color: #eb7d4b;
-	margin-bottom: 130px;
+	margin-bottom: 115px;
 }
 
 
@@ -374,7 +374,9 @@ label {
 	text-align: center;
 	margin: auto;
 }
-
+.service-content {
+	margin-bottom: 13px;
+}
 .service-content h1 {
 	font-size: 40px;
 	font-weight: bold;
@@ -392,7 +394,7 @@ label {
 .s-content h3 {
 	color: #fff;
 	font-size: 24px;
-	font-weight: 500;
+	font-weight: bold;
 	margin-top: 50px;
 	margin-bottom: 23px;
 }
@@ -422,7 +424,7 @@ label {
 
 .team-content {
 	text-align: center;
-	margin-bottom: 65px;
+	margin-bottom: 50px;
 }
 
 .team-content h1 {
@@ -439,15 +441,30 @@ label {
 
 .box h3 {
 	font-size: 24px;
-	font-weight: 500;
-	margin-top: 40px;
+	font-weight: bold;
+	margin-top: 30px;
 }
 
 .box {
 	text-align: center;
 }
-
-.social-link ul li a {
+.left {
+	margin-left: 10px;
+}
+.imgs {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.imgs-1 {
+	margin-left: 65px;
+}
+.imgs-2 {
+	margin-left: 43px;
+}
+.imgs-3 {
+	margin-left: 60px;
+}
+/* .social-link ul li a {
 	color: #fff;
 	background-color: #bdd1df;
 	margin-right: 0px;
@@ -459,7 +476,7 @@ label {
 .social-link {
 	margin-left: 40px;
 	margin-top: 30px;
-}
+} */
 
 .box span {
 	color: #30bae7;
@@ -472,8 +489,8 @@ label {
 }
 
 .box p {
-	margin-top: 25px;
-	padding: 0px 29px;
+	margin-top: 15px;
+	padding: 0px 35px;
 }
 
 .row-3 {
@@ -557,12 +574,12 @@ label {
 	font-size: 40px;
 	font-weight: bold;
 	color: #3c4761;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 .counter-content p {
 	font-size: 18px;
 	color: #3c4761;
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 }
 
 
@@ -639,7 +656,6 @@ label {
 /* About */
 .client-photo {
 	float: left;
-	width: 10rem;
 }
 
 .a-content {
@@ -668,7 +684,7 @@ label {
 }
 .client-review p {
 	font-size: 21px;
-	color: #fff;
+	color: #f7e2e9;
 	font-style: italic;
 }
 .client-review h3 {
@@ -677,4 +693,9 @@ label {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-top: 20px;
+}
+.role {
+	font-size: 18px;
+	color: #facd96;
+	font-family: titillium web;
 }
