@@ -707,12 +707,7 @@ label {
 
 .contact-section {
     text-align: center;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 84, 153, .9)), to(rgba(60, 84, 153, .9))), url(img/contact-bg.jpg);
-    background: linear-gradient(rgba(60, 84, 153, .9), rgba(60, 84, 153, .9)), url(img/contact-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 20%;
-    background-attachment: fixed
+    background-color: #3c5499;
 }
 
 .contact-section h2::after {
@@ -724,9 +719,9 @@ label {
 }
 
 .contact-section form {
-    margin-top: 5rem;
-    width: 70%;
-    margin-left: 15%
+	margin-top: 50px;
+	width: 70%;
+	margin-left: 15%;
 }
 
 .contact-section input[type=email],
@@ -762,11 +757,24 @@ label {
 }
 
 .btn-submit {
-    border: 0;
-    border-bottom: .3rem solid #299ec5;
-    background: #30bae7
+	border: 0;
+	border-bottom: .3rem solid #299ec5;
+	background: #30bae7;
+	padding: 20px 65px;
 }
 
 .btn-submit:hover {
     cursor: pointer
+}
+.contact-content h2 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 27px;
+}
+.contact-content p {
+	font-size: 18px;
+}
+.bbtn {
+	margin-top: 30px;
 }
