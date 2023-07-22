@@ -659,7 +659,7 @@ label {
 
 .a-content {
 	display: flex;
-	margin-bottom: 130px;
+	margin-bottom: 110px;
 }
 .about-c {
 	text-align: center;
@@ -669,7 +669,7 @@ label {
 	font-size: 40px;
 	font-weight: 600;
 	color: #fff;
-	margin-bottom: 16px;
+	margin-bottom: 23px;
 }
 .about-section {
 	background-color: #d74680;
@@ -697,4 +697,7 @@ label {
 	font-size: 18px;
 	color: #facd96;
 	font-family: titillium web;
+}
+.about-c p {
+	margin-bottom: 50px;
 }
