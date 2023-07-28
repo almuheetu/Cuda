@@ -7,7 +7,18 @@
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+    .main-nav li {
+        padding: 10px 17px;
+    }
+    .header-logo {
+        padding: 50px 0px 70px 0;
+    }
+    .content a {
+        margin-bottom: 75px;
+    }
+    .pt-90 {
+        padding-top: 75px;
+    }
 
 }
 
