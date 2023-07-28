@@ -19,6 +19,18 @@
     .pt-90 {
         padding-top: 75px;
     }
+    .box p {
+        margin-top: 15px;
+        padding: 0px 65px;
+    }
+    .imgs {
+        margin-left: 135px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .imgs-1 {
+        margin-left: 160px !important;
+    }
 
 }
 
