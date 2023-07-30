@@ -25,10 +25,15 @@
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
 
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
 	font-family: 'titillium web';
 	font-weight: normal;
 	font-style: normal;
+	
 }
 
 .img {
@@ -763,8 +768,9 @@ label {
 }
 
 .contact-section textarea {
-	height: 20rem
+	height: 200px;
 }
+
 
 .contact-section form ::-webkit-input-placeholder {
 	color: #fff;

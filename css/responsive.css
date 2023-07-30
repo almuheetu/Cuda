@@ -37,6 +37,22 @@
     .pb-100 {
         padding-bottom: 60px;
     }
+    .pt-img img {
+        max-width: 100%;
+    }
+    .client-review p {
+        font-size: 18px;
+    }
+    .a-content {
+        margin-bottom: 80px;
+    }
+    .pt-85 {
+        padding-top: 80px;
+    }
+    .client-review h3 {
+        font-size: 22px;
+    }
+    
 
 }
 
