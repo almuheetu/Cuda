@@ -52,6 +52,13 @@
     .client-review h3 {
         font-size: 22px;
     }
+    .s-content h3 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 45px;
+        margin-bottom: 23px;
+    }
     
 
 }
