@@ -48,7 +48,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="menu">
                                     <ul class="main-nav">
-                                        <li><a class="active" href="#home">home</a></li>
+                                        <li><a class="actives" href="#home">home</a></li>
                                         <li><a href="#service">About</a></li>
                                         <li><a href="#team">work</a></li>
                                         <li><a href="#skill">blog</a></li>
@@ -165,7 +165,8 @@
                             laoreet dolore magna.</p>
                         <div class="social-link">
                             <ul class="row-2 imgs">
-                                <li class="left"><a href="#"><img src="img/Social/Facebook.png" alt=""></a></li>
+                                <li class="left"><a href="https://www.facebook.com/"><img src="img/Social/Facebook.png"
+                                            alt=""></a></li>
                                 <li class="left"><a href="#"><img src="img/Social/twitter.png" alt=""></a></li>
                                 <li class="left"><a href="#"><img src="img/Social/instragram.png" alt=""></a></li>
                                 <li class="left"><a href="#"><img src="img/Social/mail.png" alt=""></a></li>
@@ -310,37 +311,27 @@
                             <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>
                                 consectetur, adipisci velit, sed quia non numquam</p>
                         </div>
-                        <div class="portfolio-filter">
-                            <button type="button" data-filter="all">all</button>
-                            <button type="button" data-filter=".web">web</button>
-                            <button type="button" data-filter=".apps">apps</button>
-                            <button type="button" data-filter=".icons">icons</button>
+                        <div class="portfolio-menu">
+                            <ul>
+                                <li class="active" data-filter="*">ALL</li>
+                                <li data-filter=".web">WEB</li>
+                                <li data-filter=".apps">APPS</li>
+                                <li data-filter=".icon">ICONS</li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-6 col-md-6">
-                        <div class="pt-img">
-                            <img src="img/portfolio/Portfolio-1.png" alt="">
-                            <h4>Isometric Perspective Mock-Up</h4>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-md-6">
-                        <div class="pt-img">
-                            <img src="img/portfolio/Portfolio-2.png" alt="">
-                            <h4>Time Zone App UI</h4>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-md-6">
-                        <div class="pt-img">
-                            <img src="img/portfolio/Portfolio-3.png" alt="">
-                            <h4>Viro Media Players UI</h4>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-md-6">
-                        <div class="pt-img">
-                            <img src="img/portfolio/Portfolio-4.png" alt="">
-                            <h4>Blog / Magazine Flat UI Kit</h4>
+                        <div class="portfolio-item">
+                            <div class="item web ">
+                                <img src="img/portfolio/Portfolio-1.png" alt="">
+                            </div>
+                            <div class="item apps ">
+                                <img src="img/portfolio/Portfolio-2.png" alt="">
+                            </div>
+                            <div class="item icon ">
+                                <img src="img/portfolio/Portfolio-3.png" alt="">
+                            </div>
+                            <div class="item web ">
+                                <img src="img/portfolio/Portfolio-4.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -454,11 +445,11 @@
             <div class="row">
                 <form action="#" method="POST">
                     <div class="row">
-                        <div class="col-xl-6 cell">
-                            <input type="text" name="Name" placeholder="Your Name *" >
+                        <div class="col-xl-6 col-md-6 cell">
+                            <input type="text" name="Name" placeholder="Your Name *">
                         </div>
-                        <div class="col-xl-6 cell">
-                            <input type="email" name="Email" placeholder="Your Email * " >
+                        <div class="col-xl-6 col-md-6  cell">
+                            <input type="email" name="Email" placeholder="Your Email * ">
                         </div>
                     </div>
                     <div class="row">
@@ -503,16 +494,34 @@
                                 <li><a href="#">GitHub</a></li>
                             </ul>
                         </div>
-                     
+
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-     <!-- Footer Section End -->
+    <!-- Footer Section End -->
 
 
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script>$('.portfolio-item').isotope({
+            // options
+            itemSelector: '.item',
+            layoutMode: 'fitRows'
+        });
+        $('.portfolio-menu ul li').click(function () {
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
 
+            var selector = $(this).attr('data-filter');
+            $('.portfolio-item').isotope({
+                filter: selector
+            });
+            return false;
+        });  
+    </script>
     <!-- JS here -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
