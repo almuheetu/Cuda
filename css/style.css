@@ -606,6 +606,11 @@ label {
 .teams {
 	margin-bottom: 87px !important;
 }
+.content-2 a {
+	margin-top: 50px;
+	margin-bottom: 85px;
+	margin-left: 450px;
+}
 
 .portfolio-section {
 	background: #ffdd99;
